@@ -1,0 +1,21 @@
+{
+    "name": "story_book_project",
+    "version": "1.0.0",
+    "description": "App to share public OR write private Stories",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon index"
+    },
+    "author": "moises valdez",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^5.6.4",
+        "passport": "^0.4.0",
+        "passport-google-oauth20": "^2.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.1"
+    }
+}
